@@ -187,19 +187,6 @@ method randFillN Array2D {
   }
 }
 
-to importTb {
-  return (importArray2DFromFile '/home/pierre/Downloads/r7_merged_data_34ctry.release.hard.csv')
-}
-
-to importT {
-  return (importArray2DFromFile '/home/pierre/Downloads/r7_merged_data_34ctry.release.gender.csv')
-}
-
-to importAB {
-  path = '/home/pierre/Downloads/r7_merged_data_34ctry.release.semiHard.csv'
-  return (importArray2DFromFile path)
-}
-
 to fullRand {
   tmp = (newArray2D 1000 1000)
   randFill tmp
